@@ -1,0 +1,40 @@
+.planScreen{
+    margin-top: 20px;
+}
+
+.planScreen_plan{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    opacity: .8;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.planScreen_plan:hover{
+    opacity: 1;
+}
+
+.planScreen_subscriptionLastDate{
+    margin-bottom: 40px;
+}
+
+.planScreen_plan > button{
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.planScreen_Dates{
+    display: flex;
+    justify-content: space-between;
+}
+
+.planScreen_plan--disabled > button {
+    background-color: gray;
+}
